@@ -1,57 +1,54 @@
-nav{
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
-.header {
 
+.header {
 	background-color: rgba(207, 216, 208, 1);
 	position: sticky;
 	margin: 0;
-	padding: 15px;
+	padding: 10px 0px 0px 10px;
 	width: 100%;
 	border-bottom: 1px solid black;
-
+	height: 120px;
 }
-
 
 .navbar {
 	list-style: none;
 	font-family: Source sans pro;
-	text-decoration-: rgba(0, 0, 0, 1);
+	line-height: 0px;
 	margin: 0;
-	background color: rgba(207, 216, 208, 1);
 	width: 100%;
-	height: 117px ;
-	top: 0;
-
+	height: 120px ;
 }
 
 .sticky-bottom {
 	position: fixed;
 	border-top: 1px solid black;
-	margin-bottom: 0;
+	height: 110px;
 }
+
 .container  {
-	padding-bottom: 3em;
-	display: inline-block;
-}
-.pt-5{
-	padding-bottom: 3em;
+	padding-top: none;
+	padding-bottom: none;
 	display: block;
 }
-nav-brand {
+	
+.navbar-brand {
 	color: rgba(31, 59, 14, 1) ;
-	padding-bottom: 5px;
-
+	border: 0;
+	box-sizing: none;
 }
 
+nav {
+	position: fixed;
+	margin-top: 0;
+	height: 100px;
+}
 
 h1 {
+	margin-bottom: 0px;
 	font-size: 24px;
 	color: rgba(31, 59, 14, 1);
 	font-family: bitter ;
 }
+
 h2 {
 	font-size: 16px;
 	color: black;
@@ -64,61 +61,31 @@ p {
 }
 
 em {
-	font-size: 14px;
+	font-size: 16px;
 	color: rgba(14, 59, 21, 1);
 	font-family: source sans pro;
+}
 
-}
 img {
-	
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  opacity: 0.8;
 }
+
 footer {
 	position: fixed;
 	text-align: left;
 	width: 100%;
-	height: 117px;
-	padding: 5px;
+	padding: 10px;
 	background-color: rgba(207, 216, 208, 1);
-	margin: 0;
+	
 }
 
 a:link {
 	color: black;
 	text-decoration: none;
-}
-a:active {
-	color: rgba(31, 59, 14, 1);
-}
-
-}
-/*
-.container a{
-	font-family: Source sans pro;
-	font-size: 16px;
-	float: left;
-	display: block;
-	color; black
-	text-align: center;
-	padding: 14px;
-	text-decoration: none;
-}/*
-.navbar-brand {
-	text-transform: none;
-	font-family: bitter;
-	font-size: 24;
-	font-color: #if3b0e;
-	padding-bottom: 10px;
-	position: sticky;
-}/*
-.content {
-	padding: 16px;
-}
-.sticky top {
-	position: fixed;
-	top: 0;
-	width: 100%;
-}/*
-.sticky + .content {
-	padding-top: 60px;
+	text-decoration-color: inherit;
 }
 
